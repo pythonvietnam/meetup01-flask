@@ -1,0 +1,6 @@
+<title>Flask Meetup</title>
+{% if name == 'cuonglm' %}
+    <h1>Hello Boss {{ name|capitalize|first_char }}!</h1>
+{% else %}
+    <h1>Hello {{ name|capitalize|first_char }}!</h1>
+{% endif %}
